@@ -20,6 +20,6 @@ try:
 	q=list(zip(res,r))
 	for (i,j) in q:
 		print("%s:\t%s"%(i,j))
-except:InputError("please enter a valid credentials!!!!")
+except:InputError("please enter valid credentials!!!!")
 
 
